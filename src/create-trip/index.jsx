@@ -8,7 +8,7 @@ import {
 } from "../constants/options";
 import { Button } from "../components/ui/button";
 import { toast } from "sonner";
-import { chatSession } from "../service/aimodel";
+import { chatSession } from "../service/AIModel";
 import {
   Dialog,
   DialogContent,
@@ -22,7 +22,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { db } from "../service/firebaseConfig";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import { DialogClose } from "../components/ui/dialog";
+// import { DialogClose } from "../components/ui/dialog";
 
 function CreateTrip() {
   const [place, setPlace] = useState();
