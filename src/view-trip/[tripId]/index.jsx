@@ -1,9 +1,9 @@
 import { doc, getDoc } from 'firebase/firestore';
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { db } from '../../service/firebaseConfig';
 import { toast } from 'sonner';
-import InfoSection from '../components/infoSection';
+import InfoSection from '../components/InfoSection';
 import Hotels from '../components/Hotels';
 import Places from '../components/Places';
 import Footer from '../components/Footer';
