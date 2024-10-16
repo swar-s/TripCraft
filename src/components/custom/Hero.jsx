@@ -8,7 +8,7 @@ function Hero() {
       <div className="flex flex-col items-center mx-56 gap-9">
         <h1 className="font-extrabold text-[40px] text-center mt-5">
           <span className="text-[#c9623f]">
-            Discover Your Perfect Getaway with AI:
+            Discover Your Perfect Gateway with AI:
           </span>
           <br />
           Plan Your Dream Trip in Minutes
