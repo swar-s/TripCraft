@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
+import Footer from './Footer'
 
 function Hero() {
   return (
@@ -25,6 +26,7 @@ function Hero() {
         <img src="/front1.png" className="h-[500] w-[750px] rounded-xl"/>
         
       </div>
+      <Footer />
     </>
   );
 }
