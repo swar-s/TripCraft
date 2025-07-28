@@ -15,7 +15,7 @@ const Footer = () => {
               <a href="https://github.com/swar-s" target="_blank" className="text-white hover:text-gray-300">
                 <FaGithub size={24} />
               </a>
-              <a href="https://leetcode.com/u/swar-s/" target="_blank" className="text-white hover:text-gray-300">
+              <a href="https://swarup.live" target="_blank" className="text-white hover:text-gray-300">
                 <FaCode size={24} />
               </a>
               <a href="https://www.instagram.com/swarup.exe" target="_blank" className="text-white hover:text-gray-300">
